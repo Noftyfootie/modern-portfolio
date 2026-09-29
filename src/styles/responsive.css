@@ -1,0 +1,21 @@
+/* ==================================
+   Responsive Design
+================================== */
+
+@media (max-width: 1024px) {
+  :root {
+    --container-padding: 1.5rem;
+  }
+}
+
+@media (max-width: 768px) {
+  :root {
+    --container-padding: 1.25rem;
+  }
+}
+
+@media (max-width: 480px) {
+  :root {
+    --container-padding: 1rem;
+  }
+}
