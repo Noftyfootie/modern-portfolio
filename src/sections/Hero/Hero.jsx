@@ -88,9 +88,6 @@ function Hero() {
           <span className="hero__visual-label">CODE / DESIGN / BUILD</span>
         </div>
       </div>
-      <a href="#contact" className="hero__button hero__button--secondary">
-        Let's Talk
-      </a>
     </section>
   );
 }
