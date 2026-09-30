@@ -34,3 +34,5 @@ export function useTheme() {
     toggleTheme,
   };
 }
+
+console.log();
