@@ -21,7 +21,7 @@ function Hero() {
           {/* Main Heading */}
           <h1 className="hero__title">
             I build modern
-            <span>digital experiences.</span>
+            <span>digital experiences</span>
           </h1>
 
           {/* Experience / Education */}
@@ -30,7 +30,7 @@ function Hero() {
               <span className="hero__timeline-dot" />
 
               <div className="hero__timeline-content">
-                <h3>Computer Engineering Student</h3>
+                <h3>Computer Engineering Graduate</h3>
 
                 <p>Federal Polytechnic, Ilaro</p>
 
@@ -57,7 +57,7 @@ function Hero() {
             and thoughtful web experiences using modern technologies.
           </p>
 
-          {/* Actions */}
+          {/* Actions
           <div className="hero__actions">
             <a href="#projects" className="hero__button hero__button--primary">
               View My Work
@@ -67,7 +67,7 @@ function Hero() {
             <a href="#contact" className="hero__button hero__button--secondary">
               Let's Talk
             </a>
-          </div>
+          </div> */}
         </div>
 
         {/* Hero Visual */}
