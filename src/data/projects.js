@@ -2,6 +2,7 @@ const projects = [
   {
     id: 1,
     title: "FluxCampus",
+    rate: "8.44",
     category: "Frontend Development",
     type: "Internship Project",
 
