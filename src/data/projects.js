@@ -1,3 +1,5 @@
+import fluxCampusCommunity from "../assets/images/projects/fluxcampus-community.png";
+import fluxCampusContact from "../assets/images/projects/fluxcampus-contact.jpg";
 const projects = [
   {
     id: 1,
@@ -23,8 +25,8 @@ const projects = [
     ],
 
     images: {
-      default: "/images/projects/fluxcampus-community.png",
-      hover: "/images/projects/fluxcampus-contact.png",
+      default: fluxCampusCommunity,
+      hover: fluxCampusContact,
     },
 
     liveUrl: "#",
