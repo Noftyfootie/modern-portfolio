@@ -2,7 +2,6 @@ const projects = [
   {
     id: 1,
     title: "FluxCampus",
-    rate: "8.44",
     category: "Frontend Development",
     type: "Internship Project",
 
@@ -15,7 +14,13 @@ const projects = [
 
     year: "2024",
 
-    technologies: ["React", "JavaScript", "CSS", "Responsive Design"],
+    technologies: [
+      "React",
+      "JavaScript",
+      "TypeScript",
+      "CSS",
+      "Responsive Design",
+    ],
 
     images: {
       default: "/images/projects/fluxcampus-community.png",
