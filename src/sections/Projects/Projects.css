@@ -19,7 +19,8 @@
 
 .projects__header {
   display: grid;
-  grid-template-columns: 1fr 0.6fr;
+  grid-template-columns: 1fr;
+  /* grid-template-columns: 1fr 0.6fr; */
   align-items: end;
 
   gap: var(--space-12);
@@ -48,7 +49,7 @@
 .projects__description {
   max-width: 500px;
 
-  font-size: var(--text-lg);
+  font-size: var(--text-xl);
   line-height: 1.7;
 }
 
@@ -58,10 +59,8 @@
 
 .projects__grid {
   display: grid;
-
-  grid-template-columns: 1fr;
-
-  gap: var(--space-20);
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: var(--space-8);
 }
 
 /* =========================
@@ -73,6 +72,9 @@
     grid-template-columns: 1fr;
 
     gap: var(--space-5);
+  }
+  .projects__grid {
+    grid-template-columns: 1fr;
   }
 
   .projects__description {
