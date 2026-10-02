@@ -117,14 +117,17 @@
 
 .project-card__title {
   font-size: clamp(1.5rem, 3vw, 2.25rem);
+  letter-spacing: -0.045em;
+  line-height: 1.1;
 }
 
 .project-card__description {
-  max-width: 650px;
+  max-width: 680px;
 
   color: var(--color-text-secondary);
+  font-size: var(--text-base);
 
-  line-height: var(--leading-relaxed);
+  line-height: 1.8;
 }
 
 /* =========================
@@ -138,7 +141,7 @@
 }
 
 .project-card__technologies span {
-  padding: 6px 10px;
+  padding: 7px 12px;
 
   border: 1px solid var(--color-border);
   border-radius: var(--radius-full);
@@ -148,6 +151,17 @@
 
   font-size: var(--text-xs);
   font-weight: 500;
+
+  transition:
+    color var(--transition-fast),
+    border-color var(--transition-fast),
+    background-color var(--transition-fast);
+}
+
+.project-card__technologies span:hover {
+  color: var(--color-accent);
+  border-color: var(--color-accent);
+  background: var(--color-accent-soft);
 }
 
 /* =========================

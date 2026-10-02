@@ -46,10 +46,10 @@
 }
 
 .projects__description {
-  max-width: 450px;
+  max-width: 500px;
 
   font-size: var(--text-lg);
-  line-height: var(--leading-relaxed);
+  line-height: 1.7;
 }
 
 /* =========================
