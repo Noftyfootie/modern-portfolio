@@ -13,6 +13,12 @@ function Projects() {
 
             <h2 className="projects__title">Dream Big with Start Small</h2>
           </div>
+
+          <p className="projects__description">
+            You will discover various projects that embody big dreams starting
+            from small beginnings, ranging from innovative digital solutions to
+            services that promote sustainability.
+          </p>
         </div>
 
         {/* Projects */}
