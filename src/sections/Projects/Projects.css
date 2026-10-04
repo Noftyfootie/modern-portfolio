@@ -73,9 +73,6 @@
 
     gap: var(--space-5);
   }
-  /* .projects__grid {
-    grid-template-columns: 1fr;
-  } */
 
   .projects__description {
     max-width: 650px;
