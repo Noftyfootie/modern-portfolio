@@ -7,6 +7,8 @@ import flowBankDark from "../assets/images/projects/flowbank-dark.png";
 import luxuryBarberDark from "../assets/images/projects/barber-dark.jpg";
 import luxuryBarberLight from "../assets/images/projects/barber-light.jpg";
 
+import shoppingCalculatorLight from "../assets/images/projects/shopping-calculator-light.png";
+import shoppingCalculatorDark from "../assets/images/projects/shopping-calculator-dark.png";
 const projects = [
   {
     id: 1,
@@ -84,6 +86,30 @@ const projects = [
     images: {
       default: luxuryBarberDark,
       hover: luxuryBarberLight,
+    },
+
+    liveUrl: "#",
+    githubUrl: "#",
+
+    featured: true,
+  },
+
+  {
+    id: 4,
+    title: "Shopping Calculator",
+    category: "Frontend Development",
+    type: "Personal Project",
+
+    description:
+      "A clean and responsive shopping calculator built with vanilla JavaScript. Users can dynamically add items and prices, calculate totals with currency formatting, switch between light and dark modes, and generate printable or downloadable shopping summaries.",
+
+    role: "Frontend Developer",
+
+    technologies: ["HTML", "CSS", "JavaScript", "Responsive Design"],
+
+    images: {
+      default: shoppingCalculatorLight,
+      hover: shoppingCalculatorDark,
     },
 
     liveUrl: "#",
