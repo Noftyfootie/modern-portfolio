@@ -124,18 +124,19 @@ const projects = [
 
     featured: true,
   },
+
   {
     id: 5,
-    title: "Mapty app",
-    category: "Frontend Development",
-    type: "Personal Project",
+    title: "Mapty",
+    category: "JavaScript Development",
+    type: "Learning Project",
 
     description:
-      "A clean and responsive shopping calculator built with vanilla JavaScript. Users can dynamically add items and prices, calculate totals with currency formatting, switch between light and dark modes, and generate printable or downloadable shopping summaries.",
+      "An interactive workout tracking web application built while learning modern JavaScript. Mapty allows users to log running and cycling workouts on an interactive map, with workout details and location-based tracking presented through a clean, responsive interface.",
 
     role: "Frontend Developer",
 
-    technologies: ["HTML", "CSS", "JavaScript", "Responsive Design"],
+    technologies: ["HTML", "CSS", "JavaScript", "Leaflet", "Geolocation API"],
 
     images: {
       default: MaptyWorkout,
@@ -147,18 +148,19 @@ const projects = [
 
     featured: true,
   },
+
   {
     id: 6,
     title: "Forkify",
-    category: "Frontend Development",
-    type: "Personal Project",
+    category: "JavaScript Development",
+    type: "Learning Project",
 
     description:
-      "A clean and responsive shopping calculator built with vanilla JavaScript. Users can dynamically add items and prices, calculate totals with currency formatting, switch between light and dark modes, and generate printable or downloadable shopping summaries.",
+      "A recipe discovery web application built while learning modern JavaScript. Forkify allows users to search for recipes, view detailed cooking instructions and ingredients, adjust serving sizes, bookmark favorites, and interact with recipe data through a responsive interface.",
 
     role: "Frontend Developer",
 
-    technologies: ["HTML", "CSS", "JavaScript", "Responsive Design"],
+    technologies: ["HTML", "CSS", "JavaScript", "REST API", "MVC Architecture"],
 
     images: {
       default: ForkifyBookMark,
