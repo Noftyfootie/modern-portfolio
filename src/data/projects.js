@@ -9,6 +9,13 @@ import luxuryBarberLight from "../assets/images/projects/barber-light.jpg";
 
 import shoppingCalculatorLight from "../assets/images/projects/shopping-calculator-light.png";
 import shoppingCalculatorDark from "../assets/images/projects/shopping-calculator-dark.png";
+
+import MaptyWorkout from "../assets/images/projects/mapty-workout.png";
+import MaptyLocation from "../assets/images/projects/mapty-location.png";
+
+import ForkifyBookMark from "../assets/images/projects/forkify-bookmark.png";
+import ForkifyWorkout from "../assets/images/projects/forkify-modal.png";
+
 const projects = [
   {
     id: 1,
@@ -110,6 +117,52 @@ const projects = [
     images: {
       default: shoppingCalculatorLight,
       hover: shoppingCalculatorDark,
+    },
+
+    liveUrl: "#",
+    githubUrl: "#",
+
+    featured: true,
+  },
+  {
+    id: 5,
+    title: "Mapty app",
+    category: "Frontend Development",
+    type: "Personal Project",
+
+    description:
+      "A clean and responsive shopping calculator built with vanilla JavaScript. Users can dynamically add items and prices, calculate totals with currency formatting, switch between light and dark modes, and generate printable or downloadable shopping summaries.",
+
+    role: "Frontend Developer",
+
+    technologies: ["HTML", "CSS", "JavaScript", "Responsive Design"],
+
+    images: {
+      default: MaptyWorkout,
+      hover: MaptyLocation,
+    },
+
+    liveUrl: "#",
+    githubUrl: "#",
+
+    featured: true,
+  },
+  {
+    id: 6,
+    title: "Forkify",
+    category: "Frontend Development",
+    type: "Personal Project",
+
+    description:
+      "A clean and responsive shopping calculator built with vanilla JavaScript. Users can dynamically add items and prices, calculate totals with currency formatting, switch between light and dark modes, and generate printable or downloadable shopping summaries.",
+
+    role: "Frontend Developer",
+
+    technologies: ["HTML", "CSS", "JavaScript", "Responsive Design"],
+
+    images: {
+      default: ForkifyBookMark,
+      hover: ForkifyWorkout,
     },
 
     liveUrl: "#",

@@ -85,7 +85,7 @@ function Hero() {
           <div className="hero__visual-line hero__visual-line--one" />
           <div className="hero__visual-line hero__visual-line--two" />
 
-          <span className="hero__visual-label">CODE / DESIGN / BUILD</span>
+          <span className="hero__visual-label">CODE / BUILD / DEPLOY</span>
         </div>
       </div>
     </section>
