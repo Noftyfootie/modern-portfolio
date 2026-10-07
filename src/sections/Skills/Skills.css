@@ -9,9 +9,9 @@
 }
 
 .skills__header {
-  display: flex;
+  /* display: flex;
   align-items: flex-end;
-  justify-content: space-between;
+  justify-content: space-between; */
 
   gap: var(--space-12);
   margin-bottom: var(--space-12);
@@ -48,6 +48,7 @@
   line-height: var(--leading-relaxed);
 
   flex-shrink: 0;
+  margin-top: 10px;
 }
 
 .skills__grid {

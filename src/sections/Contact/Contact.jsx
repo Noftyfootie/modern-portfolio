@@ -12,8 +12,8 @@ function Contact() {
           </h2>
 
           <p className="contact__description">
-            Have a project in mind, an opportunity to collaborate, or simply
-            want to say hello? I'd love to hear from you.
+            Have a project in mind, an opportunity to collaborate, I will love
+            to hear from you.
           </p>
 
           <a href="mailto:owolabinofisat7@gmail.com" className="contact__email">

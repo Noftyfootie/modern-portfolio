@@ -1,4 +1,5 @@
 import Navbar from "../../components/Navbar/Navbar";
+import Footer from "../../components/Footer/Footer";
 import Hero from "../../sections/Hero/Hero";
 import Projects from "../../sections/Projects/Projects";
 import Achievements from "../../sections/Achievements/Achievements";
@@ -17,6 +18,7 @@ function Home() {
         <Skills />
         <Contact />
       </main>
+      <Footer />
     </>
   );
 }
