@@ -24,7 +24,7 @@ function Navbar() {
         <nav className="navbar__nav" aria-label="Main navigation">
           <a href="#projects">Projects</a>
           <a href="#about">About</a>
-          <a href="#articles">Articles</a>
+          <a href="#skills">Skills</a>
         </nav>
 
         {/* Desktop Actions */}
@@ -64,8 +64,8 @@ function Navbar() {
             About
           </a>
 
-          <a href="#articles" onClick={closeMenu}>
-            Articles
+          <a href="#skills" onClick={closeMenu}>
+            Skills
           </a>
 
           <a href="#contact" className="navbar__mobile-cta" onClick={closeMenu}>
