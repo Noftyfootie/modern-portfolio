@@ -2,7 +2,7 @@ import Navbar from "../../components/Navbar/Navbar";
 import Hero from "../../sections/Hero/Hero";
 import Projects from "../../sections/Projects/Projects";
 import Achievements from "../../sections/Achievements/Achievements";
-import Articles from "../../sections/Articles/Articles";
+import Skills from "../../sections/Skills/Skills";
 import Contact from "../../sections/Contact/Contact";
 
 function Home() {
@@ -14,7 +14,7 @@ function Home() {
         <Hero />
         <Projects />
         <Achievements />
-        <Articles />
+        <Skills />
         <Contact />
       </main>
     </>
