@@ -31,7 +31,7 @@ function Hero() {
               <span className="hero__timeline-dot" />
 
               <div className="hero__timeline-content">
-                <h3>Computer Engineering Graduate</h3>
+                <h3>Computer Engineering Graduate (OND)</h3>
 
                 <p>Federal Polytechnic, Ilaro</p>
 
