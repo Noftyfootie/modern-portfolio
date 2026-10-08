@@ -1,4 +1,4 @@
-import devMind from "../../assets/images/projects/dev-mind.jpg";
+import devMind from "../../assets/images/projects/dev-mind.png";
 import "./Hero.css";
 
 function Hero() {
@@ -57,6 +57,19 @@ function Hero() {
             I'm a frontend developer focused on building accessible, responsive
             and thoughtful web experiences using modern technologies.
           </p>
+
+          {/* Actions  */}
+          <div className="hero__actions">
+            {" "}
+            <a href="#projects" className="hero__button hero__button--primary">
+              {" "}
+              View My Work <span aria-hidden="true">↗</span>{" "}
+            </a>{" "}
+            <a href="#contact" className="hero__button hero__button--secondary">
+              {" "}
+              Let's Talk{" "}
+            </a>{" "}
+          </div>
         </div>
 
         {/* Hero Visual */}

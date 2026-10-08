@@ -12,8 +12,19 @@
   --color-text-secondary: #a1a1a1;
   --color-text-muted: #707070;
 
+  /* --color-accent: #19d3c5;
+  --color-accent-hover: #24e2d4; */
   --color-accent: #19d3c5;
   --color-accent-hover: #24e2d4;
+
+  --color-accent-blue: #3b82f6;
+
+  --color-accent-gradient: linear-gradient(
+    135deg,
+    #19d3c5 0%,
+    #22c7e8 40%,
+    #3b82f6 100%
+  );
   --color-accent-soft: rgba(25, 211, 197, 0.1);
 
   --color-border: #282828;
