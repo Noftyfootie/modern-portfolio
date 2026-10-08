@@ -23,7 +23,7 @@ function Navbar() {
         {/* Desktop Navigation */}
         <nav className="navbar__nav" aria-label="Main navigation">
           <a href="#projects">Projects</a>
-          <a href="#about">About</a>
+          <a href="#achievements">About</a>
           <a href="#skills">Skills</a>
         </nav>
 
@@ -60,7 +60,7 @@ function Navbar() {
             Projects
           </a>
 
-          <a href="#about" onClick={closeMenu}>
+          <a href="#achievements" onClick={closeMenu}>
             About
           </a>
 
