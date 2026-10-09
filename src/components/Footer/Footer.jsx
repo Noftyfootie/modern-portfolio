@@ -27,7 +27,11 @@ function Footer() {
             </nav>
 
             <div className="footer__socials">
-              <a href="#" aria-label="GitHub" className="footer__social">
+              <a
+                href="https://github.com/Noftyfootie"
+                aria-label="GitHub"
+                className="footer__social"
+              >
                 <svg
                   viewBox="0 0 24 24"
                   width="19"
@@ -39,7 +43,11 @@ function Footer() {
                 </svg>
               </a>
 
-              <a href="#" aria-label="LinkedIn" className="footer__social">
+              <a
+                href="https://www.linkedin.com/in/owolabi-nofisat/"
+                aria-label="LinkedIn"
+                className="footer__social"
+              >
                 <svg
                   viewBox="0 0 24 24"
                   width="19"
@@ -51,7 +59,11 @@ function Footer() {
                 </svg>
               </a>
 
-              <a href="#" aria-label="Twitter" className="footer__social">
+              <a
+                href="https://x.com/NoftyFootie"
+                aria-label="Twitter"
+                className="footer__social"
+              >
                 <svg
                   viewBox="0 0 24 24"
                   width="19"

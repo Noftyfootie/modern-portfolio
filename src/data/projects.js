@@ -45,8 +45,8 @@ const projects = [
       hover: fluxCampusContact,
     },
 
-    liveUrl: "#",
-    githubUrl: "#",
+    liveUrl: "https://fluxcampus.org/",
+    githubUrl: "https://github.com/Jtcontrolla/Flux-campus-02",
 
     featured: true,
   },
@@ -70,8 +70,8 @@ const projects = [
       hover: flowBankDark,
     },
 
-    liveUrl: "#",
-    githubUrl: "#",
+    liveUrl: "https://flowbankapp.netlify.app/",
+    githubUrl: "https://github.com/Noftyfootie/FlowBank_App",
 
     featured: true,
   },
@@ -95,8 +95,8 @@ const projects = [
       hover: luxuryBarberLight,
     },
 
-    liveUrl: "#",
-    githubUrl: "#",
+    liveUrl: "https://elitecutsbarberco.vercel.app/",
+    githubUrl: "https://github.com/Noftyfootie/Elitecuts_Barber_Co",
 
     featured: true,
   },
@@ -106,6 +106,7 @@ const projects = [
     title: "Shopping Calculator",
     category: "Frontend Development",
     type: "Personal Project",
+    year: "2026",
 
     description:
       "A clean and responsive shopping calculator built with vanilla JavaScript. Users can dynamically add items and prices, calculate totals with currency formatting, switch between light and dark modes, and generate printable or downloadable shopping summaries.",
@@ -119,8 +120,8 @@ const projects = [
       hover: shoppingCalculatorDark,
     },
 
-    liveUrl: "#",
-    githubUrl: "#",
+    liveUrl: "https://shoppingcalculator2026.netlify.app/",
+    githubUrl: "https://github.com/Noftyfootie/shopping_calculator",
 
     featured: true,
   },
@@ -130,6 +131,7 @@ const projects = [
     title: "Mapty",
     category: "JavaScript Development",
     type: "Learning Project",
+    year: "2026",
 
     description:
       "An interactive workout tracking web application built while learning modern JavaScript. Mapty allows users to log running and cycling workouts on an interactive map, with workout details and location-based tracking presented through a clean, responsive interface.",
@@ -143,8 +145,8 @@ const projects = [
       hover: MaptyLocation,
     },
 
-    liveUrl: "#",
-    githubUrl: "#",
+    liveUrl: "https://noftyfootie.github.io/Mapty-App/",
+    githubUrl: "https://github.com/Noftyfootie/Mapty-App",
 
     featured: true,
   },
@@ -154,6 +156,7 @@ const projects = [
     title: "Forkify",
     category: "JavaScript Development",
     type: "Learning Project",
+    year: "2026",
 
     description:
       "A recipe discovery web application built while learning modern JavaScript. Forkify allows users to search for recipes, view detailed cooking instructions and ingredients, adjust serving sizes, bookmark favorites, and interact with recipe data through a responsive interface.",
@@ -167,8 +170,8 @@ const projects = [
       hover: ForkifyWorkout,
     },
 
-    liveUrl: "#",
-    githubUrl: "#",
+    liveUrl: "https://forkify-layo.netlify.app/",
+    githubUrl: "https://github.com/Noftyfootie/forkify",
 
     featured: true,
   },
