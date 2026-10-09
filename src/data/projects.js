@@ -1,7 +1,7 @@
 import fluxCampusCommunity from "../assets/images/projects/fluxcampus-community.png";
 import fluxCampusContact from "../assets/images/projects/fluxcampus-contact.jpg";
 
-import flowBankLight from "../assets/images/projects/flowbank-light.jpg";
+import flowBankLight from "../assets/images/projects/flowbank-light.png";
 import flowBankDark from "../assets/images/projects/flowbank-dark.png";
 
 import luxuryBarberDark from "../assets/images/projects/barber-dark.jpg";

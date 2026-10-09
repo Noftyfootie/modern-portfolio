@@ -11,7 +11,7 @@ function Projects() {
           <div>
             <span className="projects__eyebrow"> Project</span>
 
-            <h2 className="projects__title">Selected work</h2>
+            <h2 className="projects__title">Built with Purpose</h2>
           </div>
 
           <p className="projects__description">
