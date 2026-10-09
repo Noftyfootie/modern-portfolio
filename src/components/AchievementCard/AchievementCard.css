@@ -29,7 +29,13 @@
 }
 
 .achievement-card__category {
-  color: var(--color-accent);
+  background: var(--color-accent-gradient);
+
+  -webkit-background-clip: text;
+  background-clip: text;
+
+  -webkit-text-fill-color: transparent;
+  color: transparent;
 
   font-size: var(--text-xs);
   font-weight: 600;

@@ -89,7 +89,13 @@
 }
 
 .navbar__brand-text span {
-  color: var(--color-accent);
+  background: var(--color-accent-gradient);
+
+  -webkit-background-clip: text;
+  background-clip: text;
+
+  -webkit-text-fill-color: transparent;
+  color: transparent;
 }
 
 /* ==================================
@@ -127,7 +133,7 @@
   width: 100%;
   height: 1px;
 
-  background: var(--color-accent);
+  background: var(--color-accent-gradient);
 
   transform: scaleX(0);
   transform-origin: right;

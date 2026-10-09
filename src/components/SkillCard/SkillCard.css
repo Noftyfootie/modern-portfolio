@@ -30,7 +30,7 @@
   width: 100%;
   height: 2px;
 
-  background: var(--color-accent);
+  background: var(--color-accent-gradient);
 
   transform: scaleX(0);
   transform-origin: left;
@@ -105,9 +105,14 @@
 }
 
 .skill-card__technologies span:hover {
-  color: var(--color-accent);
+  background: var(--color-accent-gradient);
+
+  -webkit-background-clip: text;
+  background-clip: text;
+
+  -webkit-text-fill-color: transparent;
+  color: transparent;
   border-color: var(--color-accent);
-  background: var(--color-accent-soft);
 }
 
 @media (max-width: 480px) {

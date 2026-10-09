@@ -159,9 +159,14 @@
 }
 
 .project-card__technologies span:hover {
-  color: var(--color-accent);
+  background: var(--color-accent-gradient);
+
+  -webkit-background-clip: text;
+  background-clip: text;
+
+  -webkit-text-fill-color: transparent;
+  color: transparent;
   border-color: var(--color-accent);
-  background: var(--color-accent-soft);
 }
 
 /* =========================
@@ -202,15 +207,24 @@
 }
 
 .project-card__link--primary {
-  color: var(--color-bg);
-  background: var(--color-accent);
+  /* color: #ffffff; */
+  background: var(--color-accent-gradient);
 
-  border: 1px solid var(--color-accent);
+  border: 1px solid transparent;
+
+  box-shadow:
+    0 8px 24px rgba(25, 211, 197, 0.15),
+    0 8px 24px rgba(59, 130, 246, 0.12);
 }
 
 .project-card__link--primary:hover {
-  background: var(--color-accent-hover);
-  border-color: var(--color-accent-hover);
+  background: var(--color-accent-gradient);
+  border-color: var(--color-accent-gradient);
+  transform: translateY(-3px);
+
+  box-shadow:
+    0 12px 30px rgba(25, 211, 197, 0.2),
+    0 12px 30px rgba(59, 130, 246, 0.18);
 }
 
 .project-card__link--secondary {

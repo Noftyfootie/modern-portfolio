@@ -69,7 +69,13 @@
 }
 
 .footer__nav a:hover {
-  color: var(--color-accent);
+  background: var(--color-accent-gradient);
+
+  -webkit-background-clip: text;
+  background-clip: text;
+
+  -webkit-text-fill-color: transparent;
+  color: transparent;
 }
 
 /* Social icon buttons */

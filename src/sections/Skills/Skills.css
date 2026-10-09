@@ -9,10 +9,6 @@
 }
 
 .skills__header {
-  /* display: flex;
-  align-items: flex-end;
-  justify-content: space-between; */
-
   gap: var(--space-12);
   margin-bottom: var(--space-12);
 }
@@ -22,7 +18,13 @@
 
   margin-bottom: var(--space-3);
 
-  color: var(--color-accent);
+  background: var(--color-accent-gradient);
+
+  -webkit-background-clip: text;
+  background-clip: text;
+
+  -webkit-text-fill-color: transparent;
+  color: transparent;
 
   font-size: var(--text-sm);
   font-weight: 600;
