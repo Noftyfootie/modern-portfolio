@@ -43,6 +43,19 @@ const skills = [
       "Chrome DevTools",
     ],
   },
+
+  {
+    id: 4,
+    title: "Adaptability & Continuous Learning",
+    description:
+      "I'm adaptable and eager to learn new technologies, frameworks, and development tools. I learn quickly, apply new concepts through hands-on practice, and continuously improve my skills to keep up with evolving web technologies.",
+    technologies: [
+      "Fast Learner",
+      "Adaptability",
+      "Problem-Solving",
+      "Continuous Learning",
+    ],
+  },
 ];
 
 export default skills;
