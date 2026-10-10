@@ -66,8 +66,8 @@ const projects = [
     technologies: ["HTML", "CSS", "JavaScript"],
 
     images: {
-      default: flowBankLight,
-      hover: flowBankDark,
+      default: flowBankDark,
+      hover: flowBankLight,
     },
 
     liveUrl: "https://flowbankapp.netlify.app/",
