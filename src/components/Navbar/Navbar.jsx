@@ -32,6 +32,8 @@ function Navbar() {
           <a href="#contact" className="navbar__cta">
             Let's Talk
           </a>
+        </div>
+        <div className="navbar__theme">
           <ThemeToggle />
         </div>
 

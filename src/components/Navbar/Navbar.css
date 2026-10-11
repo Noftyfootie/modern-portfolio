@@ -244,6 +244,12 @@
   transform: translateY(-6.5px) rotate(-45deg);
 }
 
+.navbar__theme {
+  display: flex;
+  align-items: center;
+  flex-shrink: 0;
+}
+
 /* ==================================
    Mobile Navigation
 ================================== */
@@ -283,7 +289,7 @@
   border-radius: var(--radius-md);
 
   color: var(--color-bg) !important;
-  background: var(--color-accent);
+  background: var(--color-accent-gradient);
 
   text-align: center;
 }
@@ -329,5 +335,11 @@
     opacity: 1;
 
     border-top-color: var(--color-border);
+  }
+
+  .navbar__theme {
+    display: flex;
+    align-items: center;
+    flex-shrink: 0;
   }
 }
