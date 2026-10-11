@@ -141,8 +141,8 @@ const projects = [
     technologies: ["HTML", "CSS", "JavaScript", "Leaflet", "Geolocation API"],
 
     images: {
-      default: MaptyWorkout,
-      hover: MaptyLocation,
+      default: MaptyLocation,
+      hover: MaptyWorkout,
     },
 
     liveUrl: "https://noftyfootie.github.io/Mapty-App/",
