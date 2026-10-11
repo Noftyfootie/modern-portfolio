@@ -1,11 +1,11 @@
 import fluxCampusCommunity from "../assets/images/projects/fluxcampus-community.png";
-import fluxCampusContact from "../assets/images/projects/fluxcampus-contact.jpg";
+import fluxCampusContact from "../assets/images/projects/fluxcampus-contact.png";
 
 import flowBankLight from "../assets/images/projects/flowbank-light.png";
 import flowBankDark from "../assets/images/projects/flowbank-dark.png";
 
 import luxuryBarberDark from "../assets/images/projects/barber-dark.jpg";
-import luxuryBarberLight from "../assets/images/projects/barber-light.jpg";
+import luxuryBarberLight from "../assets/images/projects/barber-light.png";
 
 import shoppingCalculatorLight from "../assets/images/projects/shopping-calculator-light.png";
 import shoppingCalculatorDark from "../assets/images/projects/shopping-calculator-dark.png";
