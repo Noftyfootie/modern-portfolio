@@ -12,7 +12,7 @@ function Navbar() {
     <header className="navbar">
       <div className="navbar__container">
         {/* Brand */}
-        <a href="/" className="navbar__brand" aria-label="RofiqDev home">
+        <a href="/" className="navbar__brand" aria-label="LayoDev home">
           <span className="navbar__brand-mark">L</span>
 
           <span className="navbar__brand-text">
@@ -33,9 +33,6 @@ function Navbar() {
             Let's Talk
           </a>
         </div>
-        <div className="navbar__theme">
-          <ThemeToggle />
-        </div>
 
         {/* Mobile Menu Button */}
         <button
@@ -51,6 +48,9 @@ function Navbar() {
           <span />
           <span />
         </button>
+        <div className="navbar__theme">
+          <ThemeToggle />
+        </div>
       </div>
 
       {/* Mobile Navigation */}

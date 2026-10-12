@@ -301,6 +301,8 @@
 @media (max-width: 768px) {
   .navbar__container {
     min-height: 64px;
+    display: flex;
+    align-items: center;
   }
 
   .navbar__nav,
@@ -310,6 +312,7 @@
 
   .navbar__menu {
     display: flex;
+    margin-left: auto;
   }
 
   .navbar__mobile {
@@ -330,16 +333,18 @@
   }
 
   .navbar__mobile--open {
-    max-height: 420px;
-
+    max-height: 500px;
     opacity: 1;
-
     border-top-color: var(--color-border);
+    position: relative;
+    z-index: 1001;
+    pointer-events: auto;
   }
 
   .navbar__theme {
     display: flex;
     align-items: center;
     flex-shrink: 0;
+    margin-left: 12px;
   }
 }
