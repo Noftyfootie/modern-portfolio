@@ -116,7 +116,7 @@
 
   color: var(--color-text-secondary);
 
-  font-size: var(--text-sm);
+  font-size: var(--text-xs);
   font-weight: 500;
 
   transition: color var(--transition-fast);
@@ -174,13 +174,9 @@
 
   border-radius: var(--radius-full);
 
-  /* border: 1px solid var(--color-accent); */
-  /* color: var(--color-bg); */
-  /* background: var(--color-accent); */
-  /* background: var(--color-bg-secondary); */
   color: var(--color-text-secondary);
 
-  font-size: var(--text-sm);
+  font-size: var(--text-xs);
   font-weight: 600;
 
   transition:

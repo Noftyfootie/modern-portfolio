@@ -55,7 +55,7 @@
 .projects__description {
   max-width: 500px;
 
-  font-size: var(--text-xl);
+  font-size: var(--text-sm);
   line-height: 1.7;
 }
 

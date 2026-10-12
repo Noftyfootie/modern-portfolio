@@ -16,6 +16,10 @@ html {
   scroll-behavior: smooth;
 }
 
+/* section[id] {
+  scroll-margin-top: 250px;
+} */
+
 html,
 body,
 #root {
