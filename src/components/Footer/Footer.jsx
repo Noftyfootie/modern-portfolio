@@ -9,7 +9,7 @@ function Footer() {
         <div className="footer__main">
           <div className="footer__brand">
             <a href="#home" className="footer__logo">
-              Layo<span>.</span>
+              Layo<span>Dev</span>
             </a>
 
             <p className="footer__tagline">
