@@ -8,7 +8,7 @@ function Contact() {
           <span className="contact__eyebrow">Let's Work Together</span>
 
           <h2 className="contact__title">
-            Let's Build Something Great Together
+            Let's Build <span>Something Great</span> Together
           </h2>
 
           <p className="contact__description">

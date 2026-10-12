@@ -48,6 +48,16 @@
   letter-spacing: -0.05em;
 }
 
+.contact__title span {
+  background: var(--color-accent-gradient);
+
+  -webkit-background-clip: text;
+  background-clip: text;
+
+  -webkit-text-fill-color: transparent;
+  color: transparent;
+}
+
 .contact__description {
   max-width: 600px;
 
