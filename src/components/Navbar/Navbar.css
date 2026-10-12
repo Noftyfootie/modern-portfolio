@@ -333,12 +333,9 @@
   }
 
   .navbar__mobile--open {
-    max-height: 500px;
+    max-height: 420px;
     opacity: 1;
     border-top-color: var(--color-border);
-    position: relative;
-    z-index: 1001;
-    pointer-events: auto;
   }
 
   .navbar__theme {
