@@ -47,7 +47,7 @@
   max-width: 700px;
   flex-shrink: 0;
   margin-top: 15px;
-  font-size: var(--text-lg);
+  font-size: var(--text-sm);
   line-height: 1.7;
 }
 
