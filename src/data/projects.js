@@ -10,11 +10,11 @@ import luxuryBarberLight from "../assets/images/projects/barber-light.png";
 import shoppingCalculatorLight from "../assets/images/projects/shopping-calculator-light.png";
 import shoppingCalculatorDark from "../assets/images/projects/shopping-calculator-dark.png";
 
-import MaptyWorkout from "../assets/images/projects/mapty-workout.png";
+import MaptyWorkout from "../assets/images/projects/mapty-workout.jpg";
 import MaptyLocation from "../assets/images/projects/mapty-location.png";
 
 import ForkifyBookMark from "../assets/images/projects/forkify-bookmark.png";
-import ForkifyWorkout from "../assets/images/projects/forkify-modal.png";
+import ForkifyWorkout from "../assets/images/projects/forkify-modal.jpg";
 
 const projects = [
   {
